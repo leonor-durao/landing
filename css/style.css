@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+ font-family: 'Lora', serif;
+ font-size: 15px;
+ margin: 0px;
+}
+
+h1,h2,h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+.image-magazine {
+  width: 200px;
+  height: 243px;
+  border-radius: 6px;
+}
+
+.box-aboutus {
+ margin-top: 40px;
+ margin-bottom: 50px;
+ padding-top: 70px;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: 20px;
+ align-items: center;
+ justify-content: space-between;
+ border-radius: 6px;
+ box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+#aboutus {
+  font-weight: 500;
+  text-align: center;
+  color: #847D6D;
+}
+
+p {
+  text-align: justify;
+}
+
+.image-blazer {
+  width: 250px;
+  height: 300px;
+}
+
+.image-shirt {
+  width: 250px;
+  height: 300px;
+}
+
+.image-dress {
+  width: 250px;
+  height: 300px;
+}
+
+.blazer-black{
+  margin-left: -60px;
+  margin-top: 5px;
+
+}
+
+.blazer-price{
+  margin-left: -60px;
+}
+
+.shirt-white{
+  margin-left: 225px;
+  margin-top: -68px;
+
+}
+
+.shirt-price{
+  margin-left: 225px;
+  margin-top: 10px;
+
+}
+
+.dress-black{
+  margin-left: 510px;
+  margin-top: -67px;
+
+}
+
+.dress-price{
+  margin-left: 510px;
+  margin-top: 3px;
+
+}
+
+.image-jeans {
+  width: 250px;
+  height: 300px;
+}
+
+.image-jacket {
+  width: 250px;
+  height: 300px;
+}
+
+.image-sleeves {
+  width: 250px;
+  height: 300px;
+}
+
+.jacket-grey {
+  margin-left: 310px;
+  margin-top: 5px;
+
+}
+
+.jacket-price{
+  margin-left: 310px;
+}
+
+.jeans-blue {
+  margin-left: 600px;
+  margin-top: -70px;
+
+}
+
+.jeans-price{
+  margin-left: 600px;
+}
+
+
+.sleeves-black {
+  margin-left: 880px;
+  margin-top: -70px;
+
+}
+
+.sleeves-price{
+  margin-left: 880px;
+}
+
+.list-inline{
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgb(230,230,230);
+}
+
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #847D6D;
+}
+
+.links-images {
+  color: black;
+}
+
+.links-images:hover {
+  text-decoration: underline;
+  color: #847D6D;
+}
